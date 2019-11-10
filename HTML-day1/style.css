@@ -1,0 +1,101 @@
+body{
+    background-image: url("images/bg.jpeg");
+    background-color:lightgreen; 
+    text-align: center;
+    background-size: cover; 
+    margin: 0px;
+}
+
+h1{
+
+color: rgb(219, 58, 18)
+}
+
+h2{
+    color: #050505f8;
+    font-weight: bold;
+}
+img{
+    margin: 20%;
+    width: 40%;
+    height:40%;
+}
+ul{
+
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+overflow:hidden;
+background-color: aqua;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: brown;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header{
+    
+   margin-bottom: 10px; }
+.left{
+    border-radius: 25px;
+    height: 150px;
+    width: 30%;
+    background-color: rgba(187, 184, 15, 0.384);
+    padding:10%;
+    margin-left: 10%;
+}
+.right{
+    margin-left: 20%;
+    border-radius: 25px;
+    height: 150px;
+    width:30%;
+    background-color: rgba(197, 69, 22, 0.486);
+    padding:10%;
+    margin-right: 10%;
+    
+}
+.main{
+   display: flex;
+   flex-direction: row;
+   padding: 0px;
+}
+
+.footer{
+margin: 10px 0px 0px 0px;
+width: 100%;
+height: 93px;
+background-color: rgba(248, 250, 248, 0.61);
+
+}
+.top{
+    width: 100%;
+    height: 150px;
+}
+
+label{
+    float: left;
+    color:rgb(226, 17, 17);
+    font-weight: bold;
+}
+#tarea{
+    width: 90%;
+}
+
+.container h1{
+    color:rgb(46, 151, 221);
+}
+ #images{
+padding: 10%;
+width: 70%;
+height: 40%;
+
+
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        //alert("Welcome");
+        //console.log("unnikrishnan");
+        const prop="Hello World";
+        console.log(prop.length);
+        console.log(prop.toUpperCase());
+        console.log(prop.substring(0,5));
+        console.log(prop.substring(0,5).toUpperCase());
+        let name="unnikrishnan";
+        console.log(typeof name);
+        name=1;
+        document.write(typeof name);
+        document.write("<br>");
+        let person={
+            name:"Meera",
+            age:20,
+        };
+        console.log(person.name);
+        console.log(person["age"]);
+        let profile={
+
+            address:{
+                street:"thampanoor",
+                city:"trivandrum",
+                state:"kerala"
+
+            }
+        };
+        console.log(profile.address.street);
+
+
+
+let colors=['red','blue'];
+console.log(colors);
+console.log(colors[1]);
+console.log(colors.length);
+colors[2]='green';
+colors.push('black');
+colors.unshift('pink');
+colors.pop();
+console.log(colors.indexOf('red'));
+colors[10]="yellow";
+console.log(colors);
+
+function greet(){
+
+    console.log("Hello World");
+}
+greet();
+function add(firstNum,secondNum){
+
+//console.log("The sum is "+(firstNum+secondNum));
+return(firstNum+secondNum);
+
+}
+//add(2,3);
+console.log(add(3,6));
+if(5<10)
+{
+    console.log("5 is smaller");
+}
+else{
+    console.log("10 is greater");
+}
+let a="A";
+switch(a){
+case "A":document.write("good job <br>");
+case "B":document.write("pretty good <br>");break;
+default:document.write("unknown grade");
+}
+var count=0;
+while(count<10){
+
+    document.write(count);
+    document.write("<br>");
+    count++;
+}
+for(count;count>0;count--)
+{
+    document.write(count+"<br>");
+
+}
+
+do{
+document.write(count+"<br>");
+count++;
+}while(count<0);
+
+
+var fruits=["apple","orange","mango","grape"];
+for(var i=0;i<fruits.length;i++){
+    document.write(fruits[i]+"<br>");
+}
+var numbers=[1,2,3,4,5];
+var i=0,sum=0;
+while(i<numbers.length)
+{
+    sum+=numbers[i];
+    i++;
+}
+document.write("The sum is"+sum);
+
+    </script>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>

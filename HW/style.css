@@ -1,0 +1,80 @@
+.navbar-custom{
+background-color: rgb(63, 1, 121);
+margin-left: 0%;
+padding-left: 4%;
+}
+.nav-item{
+    margin-left: 6%;
+}
+.nav-link{
+color: white;
+}
+.jumbo1{
+   padding: 0%;
+    background-color: rgb(2, 23, 63);
+}
+.container{
+  margin: 0%;
+  padding: 0%;
+}
+.row{
+    margin: 0%;
+    padding: 0%;
+}
+.heading {
+margin-left: 4%;
+margin-right:0%;
+padding-left: 0%;
+margin-top: 2%;
+color: white;
+}
+.jumbo2{
+    background-color: rgb(63, 1, 121);  
+   margin-top: 2%;
+}
+.main{
+    background-color: white;
+    padding-left: 0%;
+    margin-left: 4%;
+    margin-right:0%;
+    padding-right: 5%;
+    margin-top: -50px;
+    height: 718px;
+}
+.sub{
+padding-top: 3%;
+margin-left: 5%;    
+margin-right: 0%;
+padding-right: 0%;
+padding-left: 0%;
+}
+.sub1{
+    margin:0%;
+    padding-left: 2%;
+
+}
+.sub2{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(216, 212, 212);
+}
+.login h1{
+    color: rgb(13, 156, 13);
+    font-weight: bolder;
+   padding-left: 48%;
+    padding-top: 2%;
+}
+.login .row{
+    padding-left: 5%;
+
+}
+.sub img{
+    
+     width:60% ;
+    height: 60%;
+     
+    
+}
+
