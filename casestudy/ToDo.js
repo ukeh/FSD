@@ -44,7 +44,11 @@ function complete(count)
 var promise1= new Promise(function(resolve,rejected){
 if(count==5)
 {
-    resolve();
+    setTimeout(function()
+    {
+        resolve();
+    },100)
+    
 }
 
 })

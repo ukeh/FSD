@@ -1,25 +1,26 @@
 .container{
-    padding:2% .5% .5% .5%;
+    padding:1% .5% .5% .5%;
     margin-left:25%;
     margin-top: 15%;
     margin-right: 25%;
     width: 50%;
-    background-color: rgba(86, 190, 37, 0.472);
-    border-radius: 10px;
+    background-color: rgba(27, 26, 26, 0.808);
+    border-radius:10px;
 }
 .jumbo1{
 background-color: rgb(242, 248, 245);
 margin-bottom: 0%;
-padding-top: 1%;
+padding-top: 8%;
 
 
 }
 h1{
     text-align: center;
-    color: rgb(9, 173, 223);
+    color: rgb(248, 248, 248);
+    font-weight:bold ;
 }
 hr{
-   width: 25%;
+   width: 20%;
  
     border-width: 2px;
 }
@@ -29,7 +30,7 @@ hr{
 }
 
 .jumbo2{
-  margin: 10%;
+  margin: 2% 10% 0% 10%;
   padding: 0%;
   
 }
@@ -37,3 +38,13 @@ hr{
 ul { 
     list-style-type:none; 
 } 
+#myDiv{
+    padding-left: 10%;
+    padding-top: 1%;
+    border-radius: 10px;
+}
+.jumbo2 h1{
+    text-align: center;
+    color: rgb(219, 22, 22);
+    font-weight:bold ;
+}
